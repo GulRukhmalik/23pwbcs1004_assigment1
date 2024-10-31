@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0c0c0c;
+            color: #09c363;
+            margin:0px;
+            padding: 0px;
+    
+        }
+        header {
+            background-color: green;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        h2 {
+            text-align: center;
+            color: #f1eeee;
+            margin-top: 20px;
+        }
+        .gallery-section {
+            margin: 30px 0;
+        }
+        .gallery-section h3 {
+            text-align: center;
+            color: #f4f2f2;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        .gallery-images {
+            display: flex;
+            overflow-x: auto;
+            gap: 20px;
+            padding-bottom: 10px;
+            scrollbar-width: thin; /* for Firefox */
+        }
+        /* For WebKit browsers (Chrome, Safari) */
+        .gallery-images::-webkit-scrollbar {
+            height: 8px;
+        }
+        .gallery-images::-webkit-scrollbar-thumb {
+            background-color: #888;
+            border-radius: 4px;
+        }
+        .gallery-images::-webkit-scrollbar-track {
+            background-color: #f1f1f1;
+        }
+        .gallery-image {
+            flex: 0 0 auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            width: 200px;
+            height: 150px;
+        }
+        .gallery-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>FitBuddy Gallery</h1>
+    <p>Explore our gallery with a variety of workout inspiration!</p>
+</header>
+
+<div class="container">
+    <div class="gallery-section">
+        <h3>Workout Machines</h3>
+        <div class="gallery-images">
+            <div class="gallery-image">
+                <img src="image1.jpg" alt="Image 1">
+            </div>
+            <div class="gallery-image">
+                <img src="image2.jpg" alt="Image 2">
+            </div>
+            <div class="gallery-image">
+                <img src="image3.jpg" alt="Image 3">
+            </div>
+            <div class="gallery-image">
+                <img src="image4.jpg" alt="Image 4">
+            </div>
+            <div class="gallery-image">
+                <img src="image5.jpg" alt="Image 5">
+            </div>
+            <div class="gallery-image">
+                <img src="image6.jpg" alt="Image 6">
+            </div>
+                    </div>
+    </div>
+    <div class="gallery-section">
+        <h3>Succes Stories</h3>
+        <div class="gallery-images">
+            <div class="gallery-image">
+                <img src="s1.jpg" alt="Succes Story 1">
+            </div>
+            <div class="gallery-image">
+                <img src="s2.jpeg" alt="Succes Story 2">
+            </div>
+            <div class="gallery-image">
+                <img src="s3.jpeg" alt="Succes Story 3">
+            </div>
+            <div class="gallery-image">
+                <img src="s4.jpg" alt="Succes Story 4">
+            </div>
+            <div class="gallery-image">
+                <img src="s5.jpg" alt="Succes Story 5">
+            </div>
+            <div class="gallery-image">
+                <img src="s2.jpeg" alt="Succes Story 1">
+            </div> 
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

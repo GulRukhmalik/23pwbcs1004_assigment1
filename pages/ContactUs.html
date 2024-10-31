@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FitBuddy</title>
+  </head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    body {
+      background-color: black;
+    }
+    .container {
+      border: 2px solid orange;
+      margin: 90px auto;
+      padding:  20px 6px;
+      width: 30%;
+      border-radius: 2px;
+      background-color: rgb(182, 181, 181);
+    }
+.Name{
+  font-size: 30px;
+}
+  
+    .left{  display: inline-block;
+
+color:green ;
+
+left: 3px;
+top: 3px;
+position: absolute;
+    } /* 
+    .left img {
+      width: 136px;
+      height: 130px;
+      border-radius: 50%;
+      border: 2px solid red;
+      background-color: white;
+      font-size: 20px;
+    }
+
+    .left div {
+      text-align: center;
+      color: white;
+      font-size: 25px;
+    }*/.left img{
+    height: auto;
+   border-radius:50%;
+   border: 2px solid  green;*/
+   position: relative;
+      width: 136px;
+      height: 130px;
+      border-radius: 50%;
+      border: 2px solid orange;
+      background-color: white;
+      
+      
+   }
+   .left div{
+    text-align: center;
+    font-size: 25px;
+  
+   }
+   .left div:hover, left div:active{
+    color:orange;
+    text-decoration: underline;
+   }
+    .btn {
+      margin: 0px 0px;
+      background-color:green;
+      color: black;
+      padding: 4px 14px;
+      border: 2px solid black;
+      border-radius: 5px;
+      font-size: 20px;
+      cursor: pointer;
+      width: 20px;
+    }
+    .btn:hover,
+    .btn:active {
+      color: black;
+      text-decoration: underline;
+      background-color:orange;
+      border: 2px solid black;
+    }
+    .form-group input {
+      font-size: 25px;
+      text-align: center;
+      display: block;
+      padding: 6px;
+      border: 2px solid black;
+      margin: 3px auto;
+    }
+    .container h2 {
+      text-align: center;
+      font-size: 30px;
+    }
+    .container button {
+      display: block;
+      text-align: center;
+      width: 35%;
+      margin: 30px auto;
+    }
+  </style>
+  <body>
+    <div class="header">
+      <div class="left">
+      <img src="fitness.jpg" alt="" >  
+     <div>Fit Buddy</div>
+    </div>
+
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form action="noaction.php">
+          <div class="form-group">
+          Name:<input type="text" name="" placeholder="Enter Your Name" />
+          </div>
+        </form>
+        <form action="noaction.php">
+          <div class="form-group">
+           Email:<input type="text" name="" placeholder="Enter Your Email" />
+          </div>
+        </form>
+        <form action="noaction.php">
+          <div class="form-group">
+          Message:<input type="text" name="" placeholder="Enter Your Message" />
+          </div>
+          <button class="btn">Submit</button>
+        </form>
+      </div>
+    </header>
+  </body>
+</html>
